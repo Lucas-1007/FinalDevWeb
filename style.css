@@ -1,2 +1,158 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+    margin: 20px;
+}
+th, td {
+background-color: gray;
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+font-weight: bold;
+}
+
+
+
+.celula{
+background-color: rgb(58, 129, 221);
+}
+.celula2{
+background-color: rgb(182, 39, 82);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.classe1 {
+    background-color: rgb(67, 67, 70);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 420px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.932);
+}
+
+.input-field input {
+    background-color: transparent;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"]:focus {
+    outline: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    margin: auto; /* Centraliza o container na horizontal */
+}
+
+.tabela1 {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.932);
+}
+
+th,
+td {
+    background-color: gray;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .classe1 {
+        width: 80%;
+    }
+    .tabela1{
+        width: 80%;
+    }
+    table {
+        width: 80%;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+}
+
+.CorFundo{
+    background-color: rgba(221, 207, 17, 0.877)
+}
+
+.CruzVermelha{
+	color: red;
+}
+
+.Label{
+	margin-left: 32px;
+	color: white;
+}
+.Label2{
+    margin-left: 8px;
+	color: white;
+}
+.Label3{
+    margin-left: 1px;
+	color: white;
+}
+.Botao{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.932);
+}
+.resultado{
+    color: white;
+}
+.paragrafo{
+    color: rgb(182, 161, 39); 
+    font-weight: bold;
+}
+.paragrafo2{
+    color: green; 
+    font-weight: bold;
+}
+.paragrafo3{
+    color: rgb(58, 129, 221); 
+    font-weight: bold;
+}
+.tabela{
+    background-color: white;
+}
+.resultado-tabela{
+    color: white;
+}
